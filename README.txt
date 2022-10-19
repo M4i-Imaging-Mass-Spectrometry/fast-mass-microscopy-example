@@ -1,8 +1,8 @@
-two_grids Script
+# two_grids Script
+
+The two_grids program is a set of script files used for processing the two_grids.tpx3c data from to the publication "Fast Mass Microscopy: Mass Spectrometry Imaging of a Gigapixel Image in 34 Minutes" https://doi.org/10.1021/acs.analchem.2c02870. The data may be downloaded from https://doi.org/10.34894/XKYD0Q. It includes some code that is not relevant for the specific processing of two_grids.tpx3c, but is relevant for the corresponding manuscript (for example, for the creation of .imzml files or the .tpx3c file from a .tpx3 file).
 
 Using the two_grids_script files:
-
-The two_grids program is a set of script files used for processing the two_grids.tpx3c data. It includes some code that is not relevant for the specific processing of two_grids.tpx3c, but is relevant for the corresponding manuscript (for example, for the creation of .imzml files or the .tpx3c file from a .tpx3 file).
 
 The source code is in the "src" folder and can be compiled by the Nightly 1.63.0 (version bb8c2f411 2022-06-19) of the Rust programming language. It is highly likely that newer Nightly versions of the Rust programming language will work as well, however several "Nightly only" features are used, so the Stable branch of Rust will not work. The Rust language package manager Cargo is used with the "Cargo.toml" file to provide the proper versions of the libraries used in the script files. The Cargo.toml file provides documentation on all required libraries including version numbers.
 
